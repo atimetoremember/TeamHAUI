@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+
+    >
+
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/listview_icon2"
+
+        />
+
+    <TextView
+        android:id="@+id/tvTitleRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ivImage"
+        android:layout_toRightOf="@+id/ivImage"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="@string/Title_Row_Listview"
+        android:textColor="#FFFF00"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/tvDateDiary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ivImage"
+        android:layout_toRightOf="@+id/ivImage"
+        android:text="@string/date_diary"
+
+        android:textColor="#FFFFFF"
+        android:textSize="14dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Diary App</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Setting_Title">Chọn giao diện</string>
+    <string name="Title_Row_Listview">Some text here</string>
+    <string name="date_write">Ngày viết: </string>
+    <string name="date_diary">date</string>
+    <string name="add">^^ Viết mới ^^</string>
+    <string name="hintText">Viết gì đó đi..hihi !!!</string>
+    <string name="finishNote">Xong</string>
+    <string name="cancel">Hủy</string>
+
+    <string name="hello_first_use">Cuốn nhật ký của bạn</string>
+    <string name="first_use">Nhập mật mã cho lần đầu sử dụng</string>
+    <string name="type_pass1">Mật mã: </string>
+    <string name="type_pass2">Nhập lại: </string>
+    <string name="reg">Bắt đầu</string>
+    <string name="login">Đăng nhập</string>
+    <string name="remember_login">Nhớ mật mã</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_addnote"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/etAddNote"
+        android:layout_width="300dp"
+        android:layout_height="320dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:gravity="top"
+        android:hint="@string/hintText"
+        android:scrollbars="vertical"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btFinish"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#3366CC"
+        android:text="@string/finishNote"
+        android:textColor="#FFFFFF"
+
+        />
+
+    <Button
+        android:id="@+id/btCancell"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="#3366CC"
+        android:text="@string/cancel"
+        android:textColor="#FFFFFF" />
+</LinearLayout>
